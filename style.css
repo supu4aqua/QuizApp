@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+   }
+   
+   body{
+     background-color:mediumslateblue;
+       font-family: 'Courier New', Courier, monospace;
+       color: white;
+   
+   }
+   .title {
+   text-align: center;
+   margin-top: 50px;
+   text-transform: uppercase;
+   }
+   
+   header ul li {
+       padding: 10px 20px;
+       list-style: none;
+       text-align: center;
+       font-size: 15px;
+       display: inline;
+       
+   }
+   header ul {
+       text-align: right;
+       margin-top: 50px
+   }
+   
+   .questions{
+     text-transform: uppercase;
+     text-align: center;
+     margin-top: 100px;
+     display: block;
+   }
+   
+   .start{
+     font-size: 16px;
+     padding: 15px;
+     text-transform: uppercase;
+     background-color: black;
+     color: white;
+     border: none;
+     cursor: pointer;
+     margin-top: 50px;
+   }
+   
+   .start:hover{
+    background-color:grey;
+   }
