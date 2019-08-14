@@ -1,50 +1,95 @@
-*{
-    box-sizing: border-box;
-   }
-   
-   body{
-     background-color:mediumslateblue;
-       font-family: 'Courier New', Courier, monospace;
-       color: white;
-   
-   }
-   .title {
-   text-align: center;
-   margin-top: 50px;
-   text-transform: uppercase;
-   }
-   
-   header ul li {
-       padding: 10px 20px;
-       list-style: none;
-       text-align: center;
-       font-size: 15px;
-       display: inline;
-       
-   }
-   header ul {
-       text-align: right;
-       margin-top: 50px
-   }
-   
-   .questions{
-     text-transform: uppercase;
-     text-align: center;
-     margin-top: 100px;
-     display: block;
-   }
-   
-   .start{
-     font-size: 16px;
-     padding: 15px;
-     text-transform: uppercase;
-     background-color: black;
-     color: white;
-     border: none;
-     cursor: pointer;
-     margin-top: 50px;
-   }
-   
-   .start:hover{
-    background-color:grey;
-   }
+      * {
+          box-sizing: border-box;
+      }
+      
+      body {
+          background-color: mediumslateblue;
+          font-family: 'Courier New', Courier, monospace;
+          color: white;
+      }
+      
+      .title {
+          text-align: center;
+          margin-top: 50px;
+          text-transform: uppercase;
+      }
+      
+      header ul li {
+          padding: 10px 20px;
+          list-style: none;
+          text-align: center;
+          font-size: 15px;
+          display: inline;
+      }
+      
+      header ul {
+          text-align: right;
+          margin-top: 50px
+      }
+      
+      .questions {
+          text-transform: uppercase;
+          text-align: center;
+          margin-top: 100px;
+          display: block;
+      }
+      
+      .start {
+          font-size: 16px;
+          padding: 15px;
+          text-transform: uppercase;
+          background-color: black;
+          color: white;
+          border: none;
+          cursor: pointer;
+          margin-top: 50px;
+      }
+      
+      .start:hover {
+          background-color: grey;
+      }
+      
+      fieldset {
+          border: none;
+      }
+      
+      label:hover,
+      label:focus {
+          background-color: black;
+      }
+      
+      label {
+          color: #ffffff;
+          text-transform: uppercase;
+          cursor: pointer;
+          display: flex;
+          line-height: 30px;
+      }
+      
+      input {
+          border-radius: 50%;
+          width: 16px;
+          height: 16px;
+          border: 2px solid #ffffff;
+          transition: 0.2s all linear;
+          outline: none;
+          margin-right: 5px;
+          position: relative;
+          top: 2px;
+      }
+      
+      input[type=radio] {
+          flex: 0 0 auto;
+          margin-right: 10px;
+      }
+      
+      .submitButton {
+          font-size: 16px;
+          padding: 15px;
+          text-transform: uppercase;
+          background-color: black;
+          color: white;
+          border: none;
+          cursor: pointer;
+          margin-top: 50px;
+      }
