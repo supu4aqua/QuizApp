@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Food Engineering Quiz App</title>
     <meta name="description" content="Test your food knowledge">
     <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="datastore.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
     <header role="banner">
-      <div class="title">
-        <h1>Food Engineering Quiz</h1>
-      </div>
-      <div class="questionCount">
-        <ul>
-          <li>QUESTION: <span class="QNo">0</span>/10</li>
-          <li>SCORE: <span class="score">0</span></li>
-        </ul>
-      </div>
+        <div class="title">
+            <img src="header-logo.jpeg" alt="Logo" />
+            <!--<h1>Food Engineering Quiz</h1>-->
+        </div>
+        <div class="questionCount">
+            <ul>
+                <li>QUESTION: <span class="QNo">0</span>/10</li>
+                <li>SCORE: <span class="score">0</span></li>
+            </ul>
+        </div>
     </header>
 
     <main role="main">
-    <div class="questions">
-        <h2>Ready to test your food knowledge?</h2>
-        <button type="button" class="start">Let's go!</button>
-      </div>
-    <div class="questionAnswerForm"></div>
+        <div class="quiz">
+            <h2>Ready to test your food knowledge?</h2>
+            <p>You must score 80% to pass the quiz! All questions are required.</p>
+            <button type="button" class="startButton">Let's go!</button>
+        </div>
+        <div class="questionAnswerForm"></div>
     </main>
-  </body>
+
+
+
+</body>
+
 </html>
